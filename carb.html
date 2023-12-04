@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carb manager</title>
+    <style>
+       *{
+        margin: 0px;
+        padding: 0px;
+       }
+     #bag{
+        border: solid rgb(39,194,141);
+        width: 100%;
+        height: 800px;
+        color :white;
+        background-color: rgb(39,194,141);
+        font-family: proxima-nova, Helvetica, Arial, sans-serif;
+      
+     }
+     #bag1{
+    /* border: solid black; */
+    width: 90%;
+    /* height: 10%; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+     }
+        
+     
+        #bag1 > :nth-child(1){
+                display: flex;
+                /* border: 2px solid red; */
+                /* justify-content: space-evenly; */
+                /* align-items: center; */
+                padding: 12px;
+                width: 3%;
+                
+     }
+            #bag1 > :nth-child(3){
+                display: flex;
+                /* border: 2px solid red; */
+                padding: 12px;
+             margin-left: 28px;
+             font-size: large;
+                width: 50%;
+                justify-content: space-evenly;
+                align-items: center;
+                
+            }
+            #bag1 > :nth-child(2){
+                /* border: 2px solid rgb(70, 22, 115); */
+                padding: 15px;
+                margin-left: -45px;
+             font-size: larger;
+                justify-content: space-evenly;
+                /* color: white; */
+                align-items: center;
+                display: flex;
+               
+            }
+            #bag1 > :nth-child(4){
+                /* border: 2px solid rgb(70, 22, 115); */
+                padding: 20px;
+               gap: 50px;
+               font-size: large;
+                justify-content: space-evenly;
+                /* color: white; */
+                align-items: center;
+                display: flex;
+                offset-distance: 10px;
+            }
+            img{
+       
+        width: 100%;
+        height: 100%;
+       
+        border-radius: 8px;
+        object-fit: cover;
+        justify-content: space-evenly;
+        
+            }
+            .my-button {
+   
+    background-color: rgb(39,194,141);
+    color: white;
+    border: none;
+            }
+            .my-button :hover{
+               
+
+            }
+    </style>
+</head>
+<body>
+<div id="bag">
+    <div id="bag1">
+        
+          <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwbeKHsHsxr96FbUto-Wngc9P3xco_iej-ITQym172SeaazCVA"/></div>
+         <div> <h3>Carb Manager</h3>
+        </div>
+        <div class>
+     <button class="my-button">   <b><p>Features</p></b> </button>   
+     <button class="my-button">  <b><p>Premium</p></b>  </button>  
+        <button class="my-button">  <b><p>Recipes</p></b>  </button>  
+        <button class="my-button"> <b><p>Articles</p></b>  </button>  
+            <button class="my-button"> <b><p>Cookbook</p></b>  </button>  
+                <button class="my-button"> <b><p>Support</p></b> </button>  
+         </div>
+         <div>
+            <button class="my-button"><b><p>Log In</p></b> </button>  
+            <button class="my-button"><b>  <p>Get the app</p></b>  </button>  
+         </div>
+    </div>
+</div>
+</body>
